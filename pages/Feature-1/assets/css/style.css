@@ -1,7 +1,31 @@
 body{
 
 }
+.header-bottom {
+    display: inline-flex;  
+    position: fixed;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 1;
+    background-color: rgb(43, 42, 42);
+    color: black;
 
+<<<<<<< HEAD
+    &:hover{
+        height: 15vh;
+
+        & > .button{
+            
+            & > h1{
+                display: flex;
+                position: relative;
+                font-size: 20px;
+                border-right: 2px solid green;
+                width: 7rem;
+=======
  .header-bottom {
         display: inline-flex;  
         position: fixed;
@@ -31,12 +55,31 @@ body{
                 visibility: visible;
 
                }
+>>>>>>> 79facfb5939b2c39b938e0a47ebf172505a53e8d
             }
+
+           & > a > button{
+            visibility: visible;
+
+           }
         }
-                & > .button {
+    }
+            & > .button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                flex-direction: row;
+                margin-left: 3px;
+
+                & > h1{
+                    position: absolute;
                     display: flex;
-                    align-items: center;
                     justify-content: center;
+<<<<<<< HEAD
+                    flex-direction: column;
+                    font-weight: 700;
+=======
                     gap: 2rem;
                     flex-direction: row;
                     margin-left: 3px;
@@ -72,8 +115,34 @@ body{
                                 background-color: yellow;
                             }
                         }
+>>>>>>> 79facfb5939b2c39b938e0a47ebf172505a53e8d
                 }
-        }
+
+                & > a {
+                    text-decoration: none;
+
+                    & > button{
+                        display: flex;
+                        border-radius: 30px;
+                        border: none;
+                        position: relative;
+                        background-color: transparent;
+                        color: white;
+                        font-family: "Playwrite DE VA", cursive;
+                        font-size: 12px;
+                        font-weight: 600;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 6px;
+                        visibility: hidden;
+                        width: 7rem;
+
+                        &:hover{
+                            background-color: yellow;
+                        }
+                    }
+            }
+    }
 }
 
 .section1{
@@ -99,6 +168,8 @@ body{
     box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
     border: none;
     border-radius: 20px;
+    margin-top: 10vh;
+
 
     gap: 1rem;
     background-color: white;
