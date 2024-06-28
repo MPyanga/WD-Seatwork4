@@ -6,16 +6,16 @@ body{
         display: inline-flex;  
         position: fixed;
         justify-content: center;
-        height: 100vh;
-        width: 5%;
-        right: 0;
-        border-radius: 20px 0px 0px 20px;
+        height: 10vh;
+        width: 100%;
+        top: 0;
+        border-radius: 0px 0px 20px 20px;
         z-index: 1;
         background-color: rgb(43, 42, 42);
         color: black;
 
         &:hover{
-            width: 10%;
+            height: 15vh;
 
             & > .button{
                 
@@ -23,9 +23,8 @@ body{
                     display: flex;
                     position: relative;
                     font-size: 20px;
-                    writing-mode: horizontal-tb;
-                    border-bottom: 2px solid green;
-                    height: 7vh;
+                    border-right: 2px solid green;
+                    width: 25%;
                 }
 
                & > a > button{
@@ -39,14 +38,13 @@ body{
                     align-items: center;
                     justify-content: center;
                     gap: 2rem;
-                    flex-direction: column;
+                    flex-direction: row;
                     margin-left: 3px;
 
                     & > h1{
                         position: absolute;
                         display: flex;
                         justify-content: center;
-                        writing-mode:vertical-rl;
                         flex-direction: column;
                         font-weight: 700;
                     }
@@ -87,6 +85,7 @@ body{
     background-image: url(../img/-1x-1.jpg);
     background-position: center;
     background-size: cover;
+    margin-top: 5vh;
     
 
     & > .container1 {
