@@ -448,6 +448,7 @@
             background-position: center;
             background-size: cover;
             box-shadow: 1px 1px 15px violet, -1px -1px 15px violet;
+            margin-right: 20px;
 
             & > img{
                 display: flex;
