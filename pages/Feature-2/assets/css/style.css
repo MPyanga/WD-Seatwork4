@@ -5,7 +5,6 @@
     height: 10vh;
     width: 100%;
     top: 0;
-    border-radius: 0px 0px 20px 20px;
     z-index: 1;
     background: #4f4f4f;
     color: black;
@@ -85,8 +84,10 @@
     flex-direction: row;
     gap: 4rem; 
     margin-top: 10vh;
+    background-image: url(../img/lavame2-9.jpg);
+    background-size: cover;
+    background-position: center;
 
-       
     & > .container{
         display: flex;
         flex-direction: row;
@@ -94,7 +95,7 @@
         padding: 10px;
         width: 100%;
         align-items: center;
-
+    
         & > .card1{
             display: flex;
             justify-content: end;
@@ -106,9 +107,8 @@
             background-size: cover;
             cursor: pointer;
             transition-duration: 0.4s;    
+            animation: hue 5s infinite;
 
-
-            
             &:hover{
                 box-shadow: 10px 10px 15px rgb(4, 231, 4);
                 width: 24rem;
@@ -158,6 +158,7 @@
                 cursor: pointer;
                 animation: glow 5s infinite;
                 transition-duration: 0.4s;    
+                animation: hue 5s infinite;
 
                 
                 &:hover{
@@ -207,6 +208,7 @@
                     cursor: pointer;
                     animation: glow 5s infinite;
                     transition-duration: 0.4s;    
+                    animation: hue 5s infinite;
 
                     &:hover{
                         box-shadow: 10px 10px 15px rgb(4, 231, 4);
@@ -257,6 +259,7 @@
                         cursor: pointer;
                         animation: glow 5s infinite;
                         transition-duration: 0.4s;    
+                        animation: hue 5s infinite;
 
                         &:hover{
                             box-shadow: 10px 10px 15px rgb(4, 231, 4);
@@ -299,7 +302,7 @@
     display: flex;
     flex-direction: row;
     height: 110vh;
-
+    background-color: violet;
 
     & > .container1{
         display: flex;
@@ -315,10 +318,24 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
+        padding: 20px;
 
         & > h1{
             font-weight: 900;
+            color: aquamarine;
+            font-size: 4rem;
+        }
+
+        & > p{
+            color: purple;
+            font-size: 1.5rem;
+            font-weight: 700;
+
+            & > b{
+                font-size: 2rem;
+                color: purple;
+            }
         }
        
     }
@@ -496,7 +513,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        color: white;  
+        color: white; 
            
         & > h1{
             color: palegreen;
@@ -505,6 +522,11 @@
         }
          
         & > p{
+            color: palegreen;
+            font-size: 20px;
+            word-spacing: 2px;
+            font-weight: 600;
+
 
         }
     
@@ -563,6 +585,7 @@
     padding: 30px;
     flex-direction: column;
     gap: 2rem;
+    background-image: url(../img/lavame2-9.jpg);
 
     & > .holder{
         display: flex;
@@ -615,7 +638,6 @@
     flex-direction: column;
     gap: 2rem;
 
-
     & > .container1{
         display: flex;
         height: 400vh;
@@ -643,6 +665,7 @@
                 width: 30%;
                 height: 100vh;
                 align-items: flex-start;
+               
 
                 & > img{
                     height: 20vh;
@@ -651,6 +674,14 @@
                 }
                 & > h1{
                     font-weight: 900;
+                    background: linear-gradient(to right,  rgb(170, 253, 2) 0%, #121FCF 20%, #CF1512 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                & > p{
+                    font-size: 1.1rem;
+                    color: black;
                 }
                 
 
@@ -667,7 +698,18 @@
             align-items: center;
             flex-direction: column;
             padding: 30px;
-
+             
+            & > h2{
+                font-weight: 900;
+                font-size: 3rem;
+                background: linear-gradient(to right, #121FCF 20%, #CF1512 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            & > h4{
+                text-align: center;
+                font-weight: 700;
+            }
            
         }
         & > .bottom{
