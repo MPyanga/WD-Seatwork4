@@ -31,12 +31,7 @@ body{
         z-index: 1;
         background: #4f4f4f;
         color: black;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        writing-mode:vertical-rl;
-        flex-direction: column;
-        font-weight: 900;
+      
         font-size: 3.5rem;
 
         &:hover{
