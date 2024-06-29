@@ -31,7 +31,6 @@ body{
         z-index: 1;
         background: #4f4f4f;
         color: black;
-      
         font-size: 3.5rem;
 
         &:hover{
@@ -69,7 +68,6 @@ body{
                         flex-direction: column;
                         font-weight: 900;
                         font-size: 3.5rem;
-            
                     }
 
                     & > a {
@@ -92,7 +90,6 @@ body{
                                 transform: scale(1.1);
                                 background-color: rgba(128, 128, 128, 0.418);
                                 box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
-
                             }
                         }
                 }
@@ -114,7 +111,6 @@ body{
         font-family: "Playwrite DE VA", cursive;
         font-size: 2rem;
         letter-spacing: 5px;
-
     }
     
     & > h1{
@@ -125,7 +121,7 @@ body{
         font-size: 4rem;
         color: black;
         text-shadow: 1px 1px rgb(110, 110, 109);        
-          }
+        }
         
     & > p{
         color: rgb(216, 216, 216);
