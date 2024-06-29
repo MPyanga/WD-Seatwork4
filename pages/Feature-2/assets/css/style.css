@@ -396,7 +396,8 @@
 
     & > .top{
         display: flex;
-        background-color: black;
+        background-color: palevioletred;
+        color: palegreen;
         width: 10%;
         height: 35vh;
         border-radius: 0px 30px 30px 0px;
@@ -456,8 +457,7 @@
         
         & > .top{
             display: flex;
-            background-color: black;
-            width: 10%;
+            width: 15%;
             height: 35vh;
             border-radius: 30px 0px 0px 30px;
             flex-direction: column;
@@ -465,13 +465,16 @@
             padding: 30px;
             box-shadow: 1px 1px 15px rgb(231, 229, 229), -1px -1px 15px rgb(231, 229, 229);
             animation: top 5s infinite;
-            
+            background-color: palevioletred;
+            color: palegreen;
+
+
             & > h1{
                 display: flex;
                 text-align: center;
                 font-size: 2rem;
-                writing-mode: vertical-rl;
                 font-weight: 900;
+                margin-top: 30px;
             }
     
             & > p{
@@ -480,12 +483,13 @@
     
             &:hover{
                 width: 50%;
-    
+
+
                 & > p{
                     visibility: visible;
                 }
                 & > h1{
-                    writing-mode: horizontal-tb;
+                    margin-top: 0;
                     font-size: 4rem;
                 }
             }
@@ -545,6 +549,7 @@
     background-image:url(../img/threepersons.webp);
     flex-direction: row;
     justify-content: space-evenly;
+    border-bottom: 2px solid wheat;
    
     & > .container1{
         display: flex;
@@ -817,8 +822,9 @@
     height: 140vh;
     justify-content: center;
     align-items: center;
-    background-color: white;
-   
+    background-image: url(../img/Wireless_Charging_img.webp);
+    background-size: cover;
+
     & > .holder{
         display: flex;
         flex-direction: column;
@@ -827,6 +833,7 @@
         justify-content: space-evenly;
         padding: 30px;
         border-radius: 20px;
+        color: whitesmoke;
     
        & > .container-left{
         display: flex;
@@ -838,6 +845,14 @@
 
             &:hover{
                 transform: scale(1.05);
+            }
+
+            & > p {
+                color: rgb(212, 211, 211);
+                font-weight: 600;
+            }
+            & > h1{
+                font-weight: 900;
             }
        }
 
@@ -852,6 +867,15 @@
 
             &:hover{
                 transform: scale(1.05);
+            }
+
+            & > p {
+                color: rgb(212, 211, 211);
+                font-weight: 600;
+            }
+
+            & > h1{
+                font-weight: 900;
             }
         }
     }
