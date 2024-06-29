@@ -5,29 +5,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork4</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+A website that showcases features which combines aesthetic design, an engaging and visually appealing interface that highlights the key aspects of the product. This website is consist of hover and animation to put transitions and effects. 
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=MPyanga/WD-Seatwork4)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,28 +49,22 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+The project is a website designed to showcase the features of a specific product. This website provides detailed information about the product, highlighting its unique features, benefits, and use cases. The purpose of the website is to apply my knowledge in css and html by designing a website that may inform potential customers about the product, and demonstrate its value. By providing comprehensive information and engaging content, the website aims to attract, educate, and convert visitors into customers.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Homepage
+- Product Details Page
+- Feature Highlights
+- Hover
+- Animations
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -90,7 +78,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Seatwork4
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -99,7 +87,17 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ Feature-1
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  |
+|  └─ Feature-2
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
@@ -108,13 +106,15 @@ WD-ProjectName
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
+|
 └─ index.html
 └─ readme.md
 ```
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| w3schools | To learn different style of codes. | https://www.w3schools.com/css/default.asp |
+| Google Fonts | To get font styles | https://fonts.google.com/ |
+| fontawesome | To get fonts that serves as symbols | https://fontawesome.com |
