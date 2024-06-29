@@ -7,8 +7,10 @@
     top: 0;
     border-radius: 0px 0px 20px 20px;
     z-index: 1;
-    background-color: rgb(43, 42, 42);
+    background: #4f4f4f;
     color: black;
+
+
 
     &:hover{
         height: 15vh;
@@ -19,7 +21,7 @@
                 display: flex;
                 position: relative;
                 font-size: 20px;
-                border-right: 2px solid green;
+                border-right: 2px solid black;
                 width: 7rem;
             }
 
@@ -36,13 +38,16 @@
                 gap: 2rem;
                 flex-direction: row;
                 margin-left: 3px;
+                width: 80%;
 
                 & > h1{
                     position: absolute;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
-                    font-weight: 700;
+                    font-weight: 900;
+                    font-size: 3.5rem;
+            
                 }
 
                 & > a {
@@ -50,22 +55,23 @@
 
                     & > button{
                         display: flex;
-                        border-radius: 30px;
                         border: none;
-                        position: relative;
-                        background-color: transparent;
-                        color: white;
+                        color: black;
                         font-family: "Playwrite DE VA", cursive;
-                        font-size: 12px;
+                        font-size: 15px;
                         font-weight: 600;
+                        width: 7rem;
                         align-items: center;
                         justify-content: center;
-                        gap: 6px;
+                        gap: 3px;
                         visibility: hidden;
-                        width: 7rem;
+                        background-color: transparent;
 
                         &:hover{
-                            background-color: yellow;
+                            transform: scale(1.1);
+                            background-color: rgba(128, 128, 128, 0.418);
+                            box-shadow: 1px 1px 10px rgb(133, 131, 131), -1px -1px 10px rgb(133, 131, 131);
+
                         }
                     }
             }
